@@ -1,7 +1,7 @@
 // head
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-  ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+  ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220108/avatar_01.3arwwk336g00.jpg' }], //favicons，资源放在public文件夹
   [
     'meta',
     {

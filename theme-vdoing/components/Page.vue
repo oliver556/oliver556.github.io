@@ -155,7 +155,7 @@ export default {
 // 背景纹适应深色模式
 .theme-mode-dark
   .theme-vdoing-wrapper
-    --linesColor rgba(125, 125, 125, 0.05)
+    --linesColor rgb(255,255,255,.8)
 /**
  * 右侧菜单的自适应
  */
