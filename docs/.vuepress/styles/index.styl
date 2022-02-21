@@ -61,6 +61,14 @@ body .vuepress-plugin-demo-block__wrapper
 /* 以下部分为 浅色模式 个人自定义样式 */
 //.theme-mode-light
 
+p ul ol
+  line-height: 2.2;
+  font-size: 14px;
+
+li
+  line-height: 2.2;
+  font-size 14px;
+
 // `>` 代码注释块
 blockquote
   font-size: 1rem;
@@ -117,6 +125,7 @@ h2 .header-anchor
   position relative;
   padding-left 0.8rem;
   // 解决对 h3 进行相对定位后，原主题距离顶部文档流遮挡部分解决
+  //pointer-events: none;
   margin-top: 0 !important;
   padding-top: 1rem !important;
   // H3 标题伪类

@@ -1,5 +1,7 @@
-const nav = require('./themeConfig/nav.js');
+// const nav = require('./themeConfig/nav.js');
+const nav = require('../common/nav');
 const sidebar = require('./themeConfig/sidebar.js');
+const footer = require('../common/footer');
 const htmlModules = require('./themeConfig/htmlModules.js');
 
 // 主题配置
@@ -12,7 +14,7 @@ module.exports = {
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: 'docs', // 编辑的文件夹
   editLinks: true, // 启用编辑
-  editLinkText: '编辑',
+  editLinkText: '编辑此页',
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
@@ -77,11 +79,12 @@ module.exports = {
       },
     ],
   },
-  footer: {
-    // 页脚信息
-    createYear: 2018, // 博客创建年份
-    copyrightInfo:
-      'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
-  },
+  // footer: {
+  //   // 页脚信息
+  //   createYear: 2018, // 博客创建年份
+  //   copyrightInfo:
+  //     'Evan Xu | <a href="https://github.com/xugaoyi/vuepress-theme-vdoing/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+  // },
+  footer,
   htmlModules // 插入hmtl(广告)模块
 }
