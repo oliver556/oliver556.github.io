@@ -1,7 +1,9 @@
 // 导航栏
 const devNav = require('../nav/devNav');
+// 框架
+const frameNav = require('../nav/frameNav');
 // 外链
-const DTNav = require('../nav/DTNav')
+const DTNav = require('../nav/DTNav');
 
 module.exports = [
   {
@@ -10,6 +12,7 @@ module.exports = [
   {
     text: '导航站', link: '/navigation/'
   },
+  frameNav,
   devNav,
   DTNav,
   {

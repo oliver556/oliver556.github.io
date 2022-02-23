@@ -61,13 +61,16 @@ body .vuepress-plugin-demo-block__wrapper
 /* 以下部分为 浅色模式 个人自定义样式 */
 //.theme-mode-light
 
-p ul ol
-  line-height: 2.2;
-  font-size: 14px;
+.home-wrapper .banner .banner-conent .features
+  margin-top: 5.5rem !important;
 
-li
-  line-height: 2.2;
-  font-size 14px;
+//p
+//  font-size 14px;
+
+.content__default
+  p, ul, ol, li
+    line-height: 2.2;
+    font-size: 14px;
 
 // `>` 代码注释块
 blockquote
@@ -156,3 +159,7 @@ h3 .header-anchor
 .content__default h3 .header-anchor
   top 1rem;
 
+// https://doc.xugaoyi.com/pages/d0d7eb/#%E4%BF%A1%E6%81%AF%E6%A1%86%E5%AE%B9%E5%99%A8
+// 信息框容器样式
+.custom-block
+  border-radius 8px;
