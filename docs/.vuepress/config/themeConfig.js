@@ -1,6 +1,5 @@
-// const nav = require('./themeConfig/nav.js');
 const nav = require('../common/nav');
-const sidebar = require('./themeConfig/sidebar.js');
+// const sidebar = require('./themeConfig/sidebar.js');
 const footer = require('../common/footer');
 const htmlModules = require('./themeConfig/htmlModules.js');
 

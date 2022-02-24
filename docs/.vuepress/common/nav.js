@@ -1,10 +1,6 @@
-// 导航栏
 const devNav = require('../nav/devNav');
-// 框架
 const frameNav = require('../nav/frameNav');
-// 外链
-const DTNav = require('../nav/DTNav');
-
+const indexNav = require("../nav/indexNav");
 module.exports = [
   {
     text: '首页', link: '/'
@@ -14,7 +10,7 @@ module.exports = [
   },
   frameNav,
   devNav,
-  DTNav,
+  indexNav, // 索引导航
   {
     text: 'Contact', icon: 'reco-message',
     items: [
