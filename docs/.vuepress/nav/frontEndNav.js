@@ -13,8 +13,10 @@ module.exports = {
     {
       text: '踩坑笔记',
       items: [
-        { text: '《Element-UI 实践系列》笔记', link: '/note/element-ui/'}
+        { text: '《Element-UI 实践系列》笔记', link: '/note/element-ui/'},
+        { text: '《移动端 实践系列》笔记', link: '/note/mobile/'},
+        { text: '《Git》学习笔记', link: '/note/git/'}
       ]
-    }
+    },
   ]
 }
