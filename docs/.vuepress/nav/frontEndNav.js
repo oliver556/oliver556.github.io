@@ -7,7 +7,9 @@ module.exports = {
     {
       text: '学习笔记',
       items: [
-        { text: '《JavaScript 深入系列》笔记', link: '/note/javascript/'}
+        { text: '《JavaScript 深入系列》笔记', link: '/note/javascript/'},
+        { text: '《Vue》笔记', link: "/note/vue/" },
+        { text: '《Git》笔记', link: '/note/git/'}
       ]
     },
     {
@@ -15,7 +17,6 @@ module.exports = {
       items: [
         { text: '《Element-UI 实践系列》笔记', link: '/note/element-ui/'},
         { text: '《移动端 实践系列》笔记', link: '/note/mobile/'},
-        { text: '《Git》笔记', link: '/note/git/'}
       ]
     },
   ]
