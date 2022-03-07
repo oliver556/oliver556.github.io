@@ -102,17 +102,13 @@ blockquote
 
 // 文章部分
 .content__default h2
-  position: relative;
-  padding-left 0.8rem;
-  // 解决对 h2 进行相对定位后，原主题距离顶部文档流遮挡部分解决
-  margin-top: 0 !important;
-  padding-top: 2.6rem !important;
   // H2 标题伪类
-  &:before
-    position: absolute;
-    left: 0;
-    top: 2.7rem;
+  &:after
+    position: relative;
+    left: -0.5rem;
+    top: -1.8rem;
     display: block;
+    width: 1px;
     height: 1.8rem;
     content: "";
     border-left: 5px solid #3178c6;
@@ -120,23 +116,18 @@ blockquote
 
 // H2 标题 前面的 # 定位
 h2 .header-anchor
-  position: absolute;
-  left: 0;
-  top: 2.6rem;
+  position: relative;
+  left: -0.6rem;
 
 .content__default h3
-  position relative;
-  padding-left 0.8rem;
-  // 解决对 h3 进行相对定位后，原主题距离顶部文档流遮挡部分解决
-  //pointer-events: none;
-  margin-top: 0 !important;
-  padding-top: 1rem !important;
   // H3 标题伪类
-  &:before
-    position: absolute;
-    left: 0;
+  &:after
+    position: relative;
+    left: -0.5rem;
+    top: -1.5rem;
     bottom: 2px;
     display: block;
+    width 1px;
     height: 1.3rem;
     content: "";
     border-left: 5px solid #e67e22;
@@ -144,20 +135,8 @@ h2 .header-anchor
 
 // H3 标题 前面的 # 定位
 h3 .header-anchor
-  position: absolute;
-  left: 0;
-  top: 4.6rem;
-
-// 正常模式下 h3 # 位置
-.content__default h3 .header-anchor
-  top 1rem;
-// 暗黑模式下 h3 # 位置
-.theme-mode-dark h3 .header-anchor
-  top 1rem;
-
-// 阅读模式下 h3 # 位置
-.content__default h3 .header-anchor
-  top 1rem;
+  position: relative;
+  left: -0.6rem;
 
 // https://doc.xugaoyi.com/pages/d0d7eb/#%E4%BF%A1%E6%81%AF%E6%A1%86%E5%AE%B9%E5%99%A8
 // 信息框容器样式
@@ -182,12 +161,6 @@ h3 .header-anchor
 // 分类页面的分类栏
 .main-wrapper .main-right >*
   width 280px !important;
-
-//.custom-block.tip {
-//  border-left-width 4px;
-//  border-radius 0.25rem;
-//}
-
 
 @media (max-width: 719px) {
   .main-wrapper .main-right .card-box {
