@@ -1,3 +1,4 @@
+@require '~vuepress-plugin-tabs/dist/themes/default.styl'
 
 // 评论区颜色重置
 .gt-container
@@ -103,10 +104,10 @@ blockquote
 // 文章部分
 .content__default h2
   // H2 标题伪类
-  &:after
+  &:before
     position: relative;
     left: -0.5rem;
-    top: -1.8rem;
+    top: 1.8rem;
     display: block;
     width: 1px;
     height: 1.8rem;
@@ -121,10 +122,10 @@ h2 .header-anchor
 
 .content__default h3
   // H3 标题伪类
-  &:after
+  &:before
     position: relative;
     left: -0.5rem;
-    top: -1.5rem;
+    top: 1.5rem;
     bottom: 2px;
     display: block;
     width 1px;
