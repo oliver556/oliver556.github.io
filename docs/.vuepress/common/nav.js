@@ -13,19 +13,4 @@ module.exports = [
   frameNav,
   devNav,
   indexNav, // 索引导航
-  {
-    text: 'Contact', icon: 'reco-message',
-    items: [
-      {
-        text: 'About',
-        icon: 'reco-account',
-        link: '/about/',
-      },
-      {
-        text: 'Github',
-        icon: 'reco-github',
-        link: 'https://github.com/oliver556',
-      }
-    ]
-  }
 ]

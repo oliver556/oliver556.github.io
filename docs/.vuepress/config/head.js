@@ -1,6 +1,7 @@
 // head
 module.exports = [
   // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
+  ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }], // 阿里在线矢量库
   ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220108/avatar_01.3arwwk336g00.jpg' }], //favicons，资源放在public文件夹
   [
     'meta',
