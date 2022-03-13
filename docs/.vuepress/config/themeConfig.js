@@ -1,7 +1,7 @@
 const nav = require('../common/nav');
 // const sidebar = require('./themeConfig/sidebar.js');
 const footer = require('../common/footer');
-const htmlModules = require('./themeConfig/htmlModules.js');
+const htmlModules = require('./htmlModules.js');
 const { readFileList, readTotalFileWords, readEachFileWords } = require('../webSiteInfo/readFile.js');
 
 // 主题配置
