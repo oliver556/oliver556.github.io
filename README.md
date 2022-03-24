@@ -1,8 +1,8 @@
 欢迎来到我的博客，请放下浮躁，细细品尝她，希望不会让你失望。
 
-1️⃣ 个人服务器地址(慢)：<https://www.aligoogle.net/>
+1️⃣ 个人服务器地址(中、快)：<https://www.aligoogle.net/>
 
-2️⃣ GitHub Pages 地址(中、快)：<https://oliver556.github.io/>
+2️⃣ GitHub Pages 地址(慢、中)：<https://oliver556.github.io/>
 
 <!--3️⃣ Gitee Pages 地址(快)：<http://gitee.notes.youngkbt.cn/>-->
 
