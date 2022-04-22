@@ -20,5 +20,11 @@ module.exports = {
         { text: '《移动端 实践系列》笔记', link: '/note/mobile/'},
       ]
     },
+    {
+      text: '配置笔记',
+      items: [
+        { text: '《环境系列》笔记', link: '/node/environment/' }
+      ]
+    }
   ]
 }
