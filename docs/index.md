@@ -2,8 +2,8 @@
 home: true
 # heroImage: /img/web.png
 <!--heroImage: https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220129/banner_04.4ygecl3hi700.jpg-->
-heroText: Jamey
-tagline: 别来无恙？
+heroText: 记录成长 分享生活
+tagline: 一个95后程序员，终身学习者。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
