@@ -1,7 +1,7 @@
 // 前端
 const frontEdnNav = require('../nav/frontEndNav');
 // 框架
-const frameNav = require('../nav/frameNav');
+// const frameNav = require('../nav/frameNav');
 // 开发
 const devNav = require('../nav/devNav');
 // 索引
@@ -15,7 +15,7 @@ module.exports = [
     text: '导航站', link: '/navigation/'
   },
   frontEdnNav,
-  frameNav,
+  // frameNav,
   devNav,
   indexNav, // 索引导航
 ]
