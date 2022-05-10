@@ -9,6 +9,12 @@ module.exports = {
         { text: 'Note', link: '/pages/24da43/' }
       ]
     },
+    {
+      text: 'Mac',
+      items: [
+        { text: '软件', link: '/pages/06b51c/' }
+      ]
+    },
     // {
     //   text: '开发系列',
     //   items: [
