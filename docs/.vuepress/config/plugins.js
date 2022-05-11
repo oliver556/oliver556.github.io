@@ -117,4 +117,9 @@ module.exports = [
   // ],
   // vuepress-plugin-tabs。官网：https://github.com/pskordilakis/vuepress-plugin-tabs
   ['tabs'],
+
+  {
+    name: 'custom-plugins',
+    globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
+  }
 ]
