@@ -1,13 +1,14 @@
 ---
 home: true
 # heroImage: /img/web.png
-<!--heroImage: https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220129/banner_04.4ygecl3hi700.jpg-->
 heroText: 记录成长 分享生活
 tagline: 一个95后程序员，终身学习者。
+pageClass: vdoing-index-class
+bannerBg: /img/bg1.png
 # actionText: 立刻进入 →
 # actionLink: /web/
 # auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
-bannerBg: https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220220/bg_01.32dmnwhi26k0.webp
+# bannerBg: https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220220/bg_01.32dmnwhi26k0.webp
 
 #features: # 可选的
 #  - title: 前端
@@ -29,7 +30,11 @@ bannerBg: https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220220/bg
 ---
 
 <ClientOnly>
-  <WebInfo/>
+  <IndexBigImg />
+</ClientOnly>
+
+<ClientOnly>
+  <WebInfo />
 </ClientOnly>
 
 <!-- 小熊猫 -->
