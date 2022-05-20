@@ -4,7 +4,7 @@ home: true
 heroText: 记录成长 分享生活
 tagline: 一个95后程序员，终身学习者。
 pageClass: vdoing-index-class
-bannerBg: /COMMON/frontPageBackground.png
+bannerBg: /common/frontPageBackground.png
 # actionText: 立刻进入 →
 # actionLink: /web/
 # auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
