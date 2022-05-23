@@ -1,6 +1,8 @@
 // head
 module.exports = [
-  // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
+  // https://github.com/PipecraftNet/jsdelivr-auto-fallback 【修复 cdn.jsdelivr.net 无法访问的问题】
+  // ['script', { src: './js/jsdelivr-auto-fallback.js', defer: 'defer' }],
+  // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]e
   ['link', { rel: 'stylesheet', href: '//at.alicdn.com/t/font_3114978_qe0b39no76.css' }], // 阿里在线矢量库
   ['link', { rel: 'icon', href: '/common/avatar.jpg' }], //favicons，资源放在public文件夹
   [
@@ -23,6 +25,6 @@ module.exports = [
   // Chrome 85 版本中，为了保护用户的隐私，默认的 Referrer Policy 则变成了 strict-origin-when-cross-origin
   ['link', { rel: 'stylesheet', href: 'https://at.alicdn.com/t/font_3077305_pt8umhrn4k9.css' }],
   ['meta', { name: 'referrer', content: 'no-referrer-when-downgrade' }],
-  ['link', { href: "https://fastly.jsdelivr.net/npm/@docsearch/css@3", rel: "stylesheet" }],
-  ['script', { src: "https://fastly.jsdelivr.net/npm/@docsearch/js@alpha" }]
+  // ['link', { href: "https://fastly.jsdelivr.net/npm/@docsearch/css@3", rel: "stylesheet" }],
+  // ['script', { src: "https://fastly.jsdelivr.net/npm/@docsearch/js@alpha" }]
 ]

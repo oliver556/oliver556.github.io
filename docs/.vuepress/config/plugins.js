@@ -80,12 +80,12 @@ module.exports = [
       },
     },
   ],
-  [
-    'vuepress-plugin-baidu-tongji', // 百度统计
-    {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
-    },
-  ],
+  // [
+  //   'vuepress-plugin-baidu-tongji', // 百度统计
+  //   {
+  //     hm: '503f098e7e5b3a5b5d8c5fc2938af002',
+  //   },
+  // ],
   // [
   //   'vuepress-plugin-comment', // 评论
   //   {
@@ -122,4 +122,7 @@ module.exports = [
   //   name: 'custom-plugins',
   //   globalUIComponents: ["GlobalTip"] // 2.x 版本 globalUIComponents 改名为 clientAppRootComponentFiles
   // }
+
+  // 全文搜索
+  ['fulltext-search'],
 ]

@@ -4,25 +4,25 @@ export default ({
   options, // 附加到根实例的一些选项
   router, // 当前应用的路由实例
   siteData, // 站点元数据
-  isServer
+  // isServer
 }) => {
   // window.Vue = vue // 使页面中可以使用Vue构造函数 （使页面中的vue demo生效）
-  Vue.mixin({
-    mounted() {
-      // 不加 setTimeout 会有报错，但不影响效果
-      setTimeout(() => {
-        try {
-          docsearch({
-            appId: "L5IPNV5K3M",
-            apiKey: "99246631cb7cd16c6c522081f0397cca",
-            indexName: "oliver556",
-            container: '.search-box',
-            debug: false
-          });
-        } catch(e) {
-          console.log(e);
-        }
-      }, 100)
-    },
-  });
+  // Vue.mixin({
+  //   mounted() {
+  //     // 不加 setTimeout 会有报错，但不影响效果
+  //     setTimeout(() => {
+  //       try {
+  //         docsearch({
+  //           appId: "L5IPNV5K3M",
+  //           apiKey: "99246631cb7cd16c6c522081f0397cca",
+  //           indexName: "oliver556",
+  //           container: '.search-box',
+  //           debug: false
+  //         });
+  //       } catch(e) {
+  //         console.log(e);
+  //       }
+  //     }, 100)
+  //   },
+  // });
 }
