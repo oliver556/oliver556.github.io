@@ -6,8 +6,6 @@ module.exports = [
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
 
-  // 'vuepress-plugin-baidu-autopush', // 百度自动推送
-
   // 自定义插件，即本地插件
   [
     {

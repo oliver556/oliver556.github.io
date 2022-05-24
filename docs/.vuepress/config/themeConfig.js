@@ -82,11 +82,11 @@ module.exports = {
     // 社交图标，显示于博主信息栏和页脚栏
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
-      {
-        iconClass: 'icon-youjian',
-        title: '发邮件',
-        link: 'mailto:aligoogle@163.com',
-      },
+      // {
+      //   iconClass: 'icon-youjian',
+      //   title: '发邮件',
+      //   link: 'mailto:aligoogle@163.com',
+      // },
       // {
       //   iconClass: 'icon-github',
       //   title: 'GitHub',
