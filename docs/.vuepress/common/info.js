@@ -8,7 +8,7 @@ const link = "https://www.aligoogle.net";
 // 底部的 | 后的描述
 const footerTitle = 'blog';
 // 头像图片
-const avatar = 'https://fastly.jsdelivr.net/gh/oliver556/image-hosting@master/20220108/avatar_01.3arwwk336g00.jpg'
+const avatar = 'https://cdn.staticaly.com/gh/oliver556/image-hosting@master/20220108/avatar_01.3arwwk336g00.jpg'
 // 头像下的昵称
 const name = 'Jamey'
 // 头像下的签名
