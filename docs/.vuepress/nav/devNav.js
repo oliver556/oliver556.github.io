@@ -1,6 +1,6 @@
 // 开发导航栏
 module.exports = {
-  text: 'DEV',
+  text: '其他',
   link: '/comprehensive/',
   items: [
     {
@@ -15,11 +15,11 @@ module.exports = {
         { text: '软件', link: '/pages/06b51c/' }
       ]
     },
-    // {
-    //   text: '开发系列',
-    //   items: [
-    //     { text: '程序员系列', link: '/pages/24da43/'}
-    //   ]
-    // }
+    {
+      text: '跨界学习',
+      items: [
+        { text: '运营', link: '/pages/0a4c58/' }
+      ]
+    },
   ]
 }
