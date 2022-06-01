@@ -3,7 +3,7 @@ const frontEdnNav = require('../nav/frontEndNav');
 // 框架
 // const frameNav = require('../nav/frameNav');
 // 开发
-const devNav = require('../nav/devNav');
+const otherNav = require('../nav/otherNav');
 // 索引
 const indexNav = require("../nav/indexNav");
 
@@ -16,6 +16,6 @@ module.exports = [
   },
   frontEdnNav,
   // frameNav,
-  devNav,
+  otherNav,
   indexNav, // 索引导航
 ]
