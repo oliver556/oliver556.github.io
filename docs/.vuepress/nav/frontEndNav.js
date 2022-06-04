@@ -12,7 +12,8 @@ module.exports = {
         { text: '《JavaScript》笔记', link: '/note/javascript/'},
         { text: '《Vue》笔记', link: "/note/vue/" },
         { text: '《Git》笔记', link: '/note/git/'},
-        { text: '《规范》笔记', link: '/note/specification/'}
+        { text: '《规范》笔记', link: '/note/specification/'},
+        { text: '《软技能》笔记', link: '/note/softSkill/'}
       ]
     },
     {
