@@ -6,7 +6,7 @@ module.exports = {
     {
       text: '记录栏',
       items: [
-        { text: '工具', link: '/pages/24da43/' }
+        { text: '工具', link: '/pages/d6b31c/' }
       ]
     },
     {

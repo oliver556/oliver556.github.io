@@ -1,6 +1,7 @@
 // 索引导航
 module.exports = {
-  text: '索引', link: '/archives/',
+  text: '索引',
+  link: '/archives/',
   items: [
     {
       text: '本站',
