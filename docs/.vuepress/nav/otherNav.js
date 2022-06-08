@@ -4,21 +4,27 @@ module.exports = {
   link: '/comprehensive/',
   items: [
     {
-      text: '记录栏',
+      text: '编辑器笔记',
       items: [
-        { text: '工具', link: '/pages/d6b31c/' }
+        { text: '开发编辑器', link: '/note/idea/'}
       ]
     },
     {
-      text: 'Mac',
+      text: '浏览器笔记',
       items: [
-        { text: '软件', link: '/pages/06b51c/' }
+        { text: 'Chrome', link: '/note/browser/'}
+      ]
+    },
+    {
+      text: 'Mac笔记',
+      items: [
+        { text: 'Mac', link: '/note/mac/'}
       ]
     },
     {
       text: '跨界学习',
       items: [
-        { text: '运营', link: '/pages/0a4c58/' }
+        { text: '运营', link: '/pages/cross-border/' }
       ]
     },
   ]

@@ -6,27 +6,28 @@ export default ({
   siteData, // 站点元数据
   // isServer
 }) => {
-  (() => {
-    function block() {
-      if (
-        window.outerHeight - window.innerHeight > 200 ||
-        window.outerWidth - window.innerWidth > 200
-      ) {
-        document.body.innerHTML =
-          "检测到非法调试,请关闭后刷新重试!";
-      }
-      setInterval(() => {
-        (function () {
-          return false;
-        }
-          ["constructor"]("debugger")
-          ["call"]());
-      }, 50);
-    }
-    try {
-      block();
-    } catch (err) {}
-  })();
+  // (() => {
+  //   function block() {
+  //     if (
+  //       window.outerHeight - window.innerHeight > 200 ||
+  //       window.outerWidth - window.innerWidth > 200
+  //     ) {
+  //       document.body.innerHTML =
+  //         "检测到非法调试,请关闭后刷新重试!";
+  //     }
+  //     setInterval(() => {
+  //       (function () {
+  //         return false;
+  //       }
+  //         ["constructor"]("debugger")
+  //         ["call"]());
+  //     }, 50);
+  //   }
+  //   try {
+  //     block();
+  //   } catch (err) {}
+  // })();
+
   // (function() {var a = new Date(); debugger; return new Date() - a > 100;}())
   // window.Vue = vue // 使页面中可以使用Vue构造函数 （使页面中的vue demo生效）
   // Vue.mixin({
