@@ -70,8 +70,9 @@ body .vuepress-plugin-demo-block__wrapper
 
 .content__default
   p, ul, ol, li
-    line-height: 2.2;
+    line-height: 2;
     font-size: 14px;
+    marign: 7px 0 7px 0 !important;
 
 // `>` 代码注释块
 blockquote
@@ -103,6 +104,7 @@ blockquote
 
 // 文章部分
 .content__default h2
+  margin-top: -4.1rem !important;
   // H2 标题伪类
   &:before
     position: relative;
@@ -121,6 +123,8 @@ h2 .header-anchor
   left: -0.6rem;
 
 .content__default h3
+  margin-top: -5.1rem !important;
+  margin-bottom: 10px !important;
   // H3 标题伪类
   &:before
     position: relative;
@@ -252,4 +256,8 @@ h3 .header-anchor
 
 .articleInfo-wrap {
   max-width initial !important;
+}
+
+.content__default ul {
+  margin-top: 0;
 }

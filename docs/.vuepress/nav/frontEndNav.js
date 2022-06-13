@@ -22,6 +22,7 @@ module.exports = {
       items: [
         { text: '《Element-UI 实践系列》笔记', link: '/note/element-ui/'},
         { text: '《移动端 实践系列》笔记', link: '/note/mobile/'},
+        { text: '《综合》笔记', link: '/note/complex/'},
       ]
     },
     {
