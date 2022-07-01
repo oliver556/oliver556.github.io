@@ -24,7 +24,7 @@ module.exports = {
     {
       text: '跨界学习',
       items: [
-        { text: '运营', link: '/pages/cross-border/' }
+        { text: '运营', link: '/note/cross-border/' }
       ]
     },
   ]
