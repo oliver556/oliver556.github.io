@@ -11,6 +11,7 @@ module.exports = {
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
+    extractHeaders: [ 'h2', 'h3', 'h4' ]
   },
   head,
   plugins,
