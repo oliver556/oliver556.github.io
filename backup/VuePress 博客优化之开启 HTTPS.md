@@ -17,20 +17,20 @@ sidebarDepth: 2
 
 阿里云提供了免费证书可以使用，在每个自然年内，都可以通过 SSL 证书服务一次性申领 20 张免费证书。
 
-### 1.1 购买证书
+### 1. 购买证书
 
 访问 [云盾证书服务购买页](https://common-buy.aliyun.com/?commodityCode=cas_dv_public_cn&request=%7B%22product%22:%22cert_product%22,%22domain%22:%22all%22,%22productCode%22:%22symantec-dv-1-starter%22%7D)，
 选择「DV 单域名证书（免费试用）」，提示按照下单购买（订单价格为 0 元）。
 
 ![vuepress_01-22_01](https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220122/vuepress_01-22_01.3kyw0m9sb4k0.jpg)
 
-### 1.2 创建证书
+### 2. 创建证书
 
 登录 [SSL证书控制台](https://yundunnext.console.aliyun.com/?spm=a2c4g.11186623.0.0.1d98158eby7LBX&p=cas)，选择「SSL证书」-「免费证书」，点击「创建证书」，就会自动创建一个证书：
 
 ![vuepress_01-22_02](https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220122/vuepress_01-22_02.5kux0rc8q7s0.jpg)
 
-### 1.3 证书申请
+### 3. 证书申请
 
 1. 填写申请
 
@@ -64,7 +64,7 @@ sidebarDepth: 2
 
 ## 二. 安装证书
 
-### 2.1 下载证书
+### 1. 下载证书
 
 证书状态变为「已签发」后，点击「下载」：
 
@@ -79,7 +79,7 @@ sidebarDepth: 2
 - 7138509_www.aligoogle.net.key
 - 7138509_www.aligoogle.net.pem
 
-### 2.2 上传证书
+### 2. 上传证书
 
 接下来我们要做的就是将下载的证书文件上传到 Web 服务器，并修改服务器的相关配置，开启 HTTPS 监听。
 
@@ -120,7 +120,7 @@ scp ~/desktop/7138509_www.aligoogle.net_nginx/7138509_www.aligoogle.net.pem root
 7138509_www.aligoogle.net.key  7138509_www.aligoogle.net.pem
 ```
 
-### 2.3 修改配置
+### 3. 修改配置
 
 接下来我们修改 Nginx 配置：
 
@@ -170,7 +170,7 @@ server {
 systemctl reload nginx
 ```
 
-### 2.4 http 重定向
+### 4. http 重定向
 
 对于原本的 https 请求，我们可以写一个 rewrite 语句，重定向所有的 http 请求到 https 请求：
 
@@ -189,13 +189,13 @@ systemctl reload nginx
     }
 ```
 
-### 2.5 开启端口
+### 5. 开启端口
 
 阿里云服务器，默认没有开启 HTTPS 监听的 443 端口，所以我们需要 [ESC管理控制台](https://ecs.console.aliyun.com/?spm=a2c4g.11186623.0.0.32cc3103FVUJPR) 的「安全组」页面，开放 443 端口：
 
 ![vuepress_01-22_11](https://cdn.jsdelivr.net/gh/oliver556/image-hosting@master/20220122/vuepress_01-22_11.74pjvoaydco0.jpg)
 
-### 2.6 验证
+### 6. 验证
 
 现在，我们访问一下证书绑定的域名，这里是 `https://www.aligoogle.net`，如果网页地址栏出现小锁标志，表示证书已经安装成功：
 

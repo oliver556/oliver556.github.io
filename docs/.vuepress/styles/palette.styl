@@ -29,7 +29,8 @@
 // 颜色
 
 $bannerTextColor = #fff // 首页 banner 区(博客标题)文本颜色
-$accentColor = #3178c6
+//$accentColor = #3178c6
+$accentColor = #646cff
 $activeColor = #ff5722
 $arrowBgColor = #ccc
 $badgeTipColor = #42b983
@@ -98,6 +99,7 @@ strong
  // 行高亮颜色，和代码块深色主题一起使用，一起注释
  div[class*="language-"]
   .highlight-lines
+   top 7px;
    .highlighted
     background-color rgba(0,0,0,.66)
   &.line-numbers-mode
@@ -127,8 +129,10 @@ strong
  }
  // mark 标签配置
  mark
-  color #d63200
-  border .1em solid #d63200
+  //color #d63200
+  //border .1em solid #d63200
+  color #454ce1;
+  border 0.1em solid #646cff;
   background-color transparent
   padding .1rem .4rem
   border-radius 2rem
@@ -174,8 +178,10 @@ strong
   box-shadow 2px 2px 15px 2px rgba(0,0,0,.40);
  // mark 标签配置
  mark
-  color #b160ea
-  border .1em solid #b160ea
+  //color #b160ea
+  //border .1em solid #b160ea
+  color #454ce1;
+  border 0.1em solid #646cff;
   background-color transparent
   padding .1rem .4rem
   border-radius 2rem
