@@ -15,6 +15,7 @@ module.exports = {
         { text: '《规范》笔记', link: '/note/specification/'},
         { text: '《软技能》笔记', link: '/note/softSkill/'},
         { text: '《面试》笔记', link: '/note/interview/'},
+        { text: '《持续集成&交付&部署》笔记', link: '/note/continuousDelivery/'}
       ]
     },
     {

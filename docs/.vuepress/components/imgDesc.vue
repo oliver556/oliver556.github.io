@@ -1,6 +1,6 @@
 <template>
   <div class="img-desc">
-    <p style="color: #999;" align="center">图{{num}}.   {{title}} ▲</p>
+    <p style="color: #999;" align="center"> {{ num !== undefined ? `图${num}.` : '' }}   {{title}} ▲</p>
   </div>
 </template>
 
@@ -17,8 +17,7 @@ export default {
     },
 
     num: {
-      type: null,
-      default: '0'
+      type: null
     }
   },
 
