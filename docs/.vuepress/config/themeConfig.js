@@ -7,10 +7,9 @@ const { readFileList, readTotalFileWords, readEachFileWords } = require('../webS
 // 主题配置
 module.exports = {
   nav,
-  sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-  // logo: 'https://cdn.staticaly.com/gh/oliver556/image-hosting@master/20220108/avatar_01.3arwwk336g00.jpg', // 导航栏名字左侧头像
+  sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到 h3 标题）
   logo: '/common/avatar.jpg', // 导航栏名字左侧头像
-  // repo: 'oliver556/Jamison-blog', // 导航栏右侧生成Github链接
+  // repo: 'oliver556/Jamison-blog', // 导航栏右侧生成 Github 链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   // docsDir: 'docs', // 编辑的文件夹
