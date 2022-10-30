@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 记录成长 分享生活
+heroText: 愿你像那石灰，别人越是浇你冷水，你越是沸腾。
 tagline: 一个95后程序员，终身学习者。
 pageClass: vdoing-index-class
 bannerBg: /common/frontPageBackground.png
