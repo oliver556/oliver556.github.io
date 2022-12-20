@@ -27,5 +27,11 @@ module.exports = {
         { text: '运营', link: '/note/cross-border/' }
       ]
     },
+    {
+      text: '破解合集',
+      items: [
+        { text: '破解', link: '/note/cracked/' }
+      ]
+    },
   ]
 }
