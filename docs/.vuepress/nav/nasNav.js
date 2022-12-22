@@ -7,7 +7,7 @@ module.exports = {
     {
       text: '极空间',
       items: [
-        { text: 'NAS', link: '/note/nas/'}
+        { text: 'Docker', link: '/note/nas/'}
       ]
     }
   ]
