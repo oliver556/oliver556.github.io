@@ -8,7 +8,7 @@
 
 <!--4️⃣ 主地址(快)：<https://www.aligoogle.net/>-->
 
-## 目录页的front matter
+# 目录页的front matter
 
 ``` yml
 ---

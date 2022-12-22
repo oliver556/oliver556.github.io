@@ -33,7 +33,7 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 #git push -f git@gitee.com:oliver556/Jamison-blog.git master:gh-pages
 
 # 如果发布到 个人服务器
-git push -f git@115.159.25.132:/home/www/website/blog.git master
+#git push -f git@115.159.25.132:/home/www/website/blog.git master
 
 cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
