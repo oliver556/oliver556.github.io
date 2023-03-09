@@ -9,6 +9,12 @@ module.exports = {
       items: [
         { text: 'Docker', link: '/note/nas/'}
       ]
+    },
+    {
+      text: '影视',
+      items: [
+        { text: 'movie', link: '/note/movie/'}
+      ]
     }
   ]
 }
